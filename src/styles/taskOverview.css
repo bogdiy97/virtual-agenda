@@ -1,0 +1,58 @@
+.task-overview {
+  margin: 20px auto;
+  max-width: 800px;
+  width: 90%;
+  padding: 30px;
+  background-color: ghostwhite;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-overview h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.filter-group {
+  margin: 10px 0 10px 0;
+}
+
+.filter-group label {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.filter-group input,
+.filter-group select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.filter-group input {
+  width: 100%;
+}
+
+.filters-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0 10px 0;
+}
+
+.filter-item {
+  flex: 1;
+  min-width: 150px;
+}
+
+@media (max-width: 768px) {
+  .filters-container {
+    flex-direction: column;
+  }
+
+  .filter-item {
+    min-width: 100%;
+  }
+}

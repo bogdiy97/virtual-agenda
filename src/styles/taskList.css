@@ -1,0 +1,11 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-list p {
+  font-size: 18px;
+  color: #666;
+  text-align: start;
+}

@@ -1,0 +1,17 @@
+.task-reference-link {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.task-reference-link:hover {
+  background-color: #28a745;
+}
+
+.task-reference-missing {
+  color: red;
+  font-style: italic;
+}
